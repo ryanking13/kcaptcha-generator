@@ -8,6 +8,10 @@ __Sample Images__
 
 ![Sample Image2](samples/72_001048.png)
 
+![Sample Image3](samples/86861_003054.png)
+
+![Sample Image4](samples/dx_000179.png)
+
 ## Prerequisite
 
 - php, php-gd

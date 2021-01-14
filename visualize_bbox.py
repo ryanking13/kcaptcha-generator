@@ -15,11 +15,14 @@ def main():
     img = cv2.imread(str(img_file))
     annotation = json.loads(annotation_file.read_text())
     
+
     bboxs = annotation["bbox"]
 
     img_bbox = img
-    for b in bboxs:
-        img_bbox = cv2.rectangle(img_bbox, (b["xmin"], b["ymin"]), (b["xmax"], b["ymax"]), (255, 0, 0), 2)
+    for i, b in enumerate(bboxs):
+        color = [0, 0, 0]
+        color[i % 3] = 255
+        img_bbox = cv2.rectangle(img_bbox, (b["xmin"], b["ymin"]), (b["xmax"], b["ymax"]), color, 2)
 
     cv2.imshow("bbox", img_bbox)
     cv2.waitKey(0)

@@ -49,7 +49,7 @@ optional arguments:
   -n NUM_DIGITS, --num-digits NUM_DIGITS
                         Number of CAPTCHA digits (Default: 2)
   --chars CHARS         Character set in CAPTCHA (Default: 0123456789)
-  -c, --clear           Remove previous datasets before generation (Default: False
+  -c, --clear           Remove previous datasets before generation (Default: False)
   --no-split-validation
                         Do not split train/validation set with different directories (Default: False)
   -p, --preprocess      Do preprocess before saving image (Default: False)
@@ -69,3 +69,7 @@ python generate.py
 # Generate 1000 CAPTCHA images of length 6 containing alphabet
 python generate.py -s 1000 -n 6 --chars abcdefghijklmnopqrstuvwxyz
 ```
+
+## Download existing dataset
+
+See 

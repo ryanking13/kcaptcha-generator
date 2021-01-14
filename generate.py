@@ -62,7 +62,7 @@ def parse_args():
         "--clear",
         default=False,
         action="store_true",
-        help="Remove previous datasets before generation (Default: %(default)s",
+        help="Remove previous datasets before generation (Default: %(default)s)",
     )
     parser.add_argument(
         "--no-split-validation",

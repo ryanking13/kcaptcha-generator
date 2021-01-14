@@ -70,6 +70,6 @@ python generate.py
 python generate.py -s 1000 -n 6 --chars abcdefghijklmnopqrstuvwxyz
 ```
 
-## Download existing dataset
+## I don't want to install PHP :P!
 
-See 
+See [Releases](https://github.com/ryanking13/kcpatcha-generator/releases).
